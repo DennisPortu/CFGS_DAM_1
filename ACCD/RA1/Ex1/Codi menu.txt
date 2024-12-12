@@ -1,0 +1,53 @@
+////DINS DEL MAIN    
+		Menu(); //imprimim menu
+		while(opcio!=9) {
+			Scanner teclado = new Scanner(System.in); //Creem objecte de escáner o lectura
+			System.out.println("  --Escull opció: ");
+			opcio = teclado.nextInt(); //cridem metode nextInt per llegar el numero i guardar a opcio.
+			System.out.println("");
+			Seleccio(opcio); //Executem exercici escollit.
+		}
+
+
+
+
+private static void menu() {
+        System.out.println("******MENU********");
+        System.out.println("1.- Exercici1: Crear fitxer usuaris.txt i entrar noms d'usuaris i contrasenyes");
+        System.out.println("2.- Exercici2: Comprovar usuari i contrasenya");
+        System.out.println("3.- Exercici3: Crear fitxer grups.gtxt i entrar grups");
+        System.out.println("9.- SORTIR");
+        System.out.println("");
+        System.out.println("Introdueix la opció desitjada: ");
+    }
+
+    private static void seleccio(int opcio) throws IOException {
+        switch (opcio) {
+
+            case 1:
+                exercici1();
+                break;
+            case 2:
+                exercici2();
+                break;
+            case 3:
+                exercici3();
+                break;
+            case 4:
+                exercici4();
+                break;
+            case 5:
+                exercici5();
+                break;
+            case 6:
+                exercici6();
+                break;
+            case 7:
+                //exercici7();
+                break;
+            default:
+                break;
+
+        }
+
+    }
