@@ -1,0 +1,10 @@
+﻿  Timber.cpp
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(49,23): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(73,48): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(216,22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(320,45): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(343,45): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(371,51): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(372,74): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Timber\Timber.cpp(412,29): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+  Timber.vcxproj -> E:\AluCiclesGS1\Dennis Molina\Programació\Exercicis\RA3\RA3- Timber\Timber\Debug\Timber.exe

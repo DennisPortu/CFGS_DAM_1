@@ -1,0 +1,213 @@
+﻿  draw.cpp
+  engine.cpp
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(34,7): error C3646: 'Robert': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(34,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(52,10): error C3646: 'state': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(52,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,7): error C3646: 'rialText': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,15): error C2143: error de sintaxis: falta ';' delante de '.'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,34): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,15): error C3646: 'setString': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,24): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,85): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,15): error C3646: 'setCharacterSize': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,31): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,35): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,15): error C3646: 'setFillColor': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,27): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,39): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,15): error C3646: 'setOrigin': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,24): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,77): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,15): error C3646: 'setPosition': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,26): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,75): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,10): error C3646: 'openFromFile': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,22): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,50): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,10): error C3646: 'play': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,14): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,16): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,8): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,9): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,9): error C3646: 'init': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,13): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,95): error C2238: símbolos (token) inesperados delante de ';'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,8): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,13): error C3646: 'time': especificador de invalidación desconocido
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,17): error C2059: error de sintaxis: '('
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2): warning C4183: 'srand': falta el tipo de valor devuelto; se supone que se trata de una función miembro que devuelve 'int'
+  (compilando archivo de origen "engine.cpp")
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(3,1): error C2059: error de sintaxis: 'using namespace'
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(3,20): error C2143: error de sintaxis: falta ')' delante de ';'
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:             T=float
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:             T=float
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(67,3): error C2065: 'Robert': identificador no declarado
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(69,3): error C2660: 'Engine::srand': la función no acepta 1 argumentos
+      E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2):
+      vea la declaración de 'Engine::srand'
+      E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(69,3):
+      al hacer coincidir la lista de argumentos '(int)'
+  
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(78,5): error C2065: 'Robert': identificador no declarado
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(96,2): error C2065: 'Robert': identificador no declarado
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(111,14): error C2065: 'Robert': identificador no declarado
+  motor de videojocs.cpp
+  update.cpp
+  Generando código...

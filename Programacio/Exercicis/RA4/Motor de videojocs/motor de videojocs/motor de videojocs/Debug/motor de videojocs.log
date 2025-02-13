@@ -1,0 +1,29 @@
+﻿  Hero.cpp
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,70): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,70): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,70): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,70): warning C4244:             T=unsigned int
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,70): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,43): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,43): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,43): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,43): warning C4244:             T=unsigned int
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(30,43): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(31,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(31,20): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  engine.cpp
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:             T=float
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:             T=float
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(123,20): warning C4018: '<': no coinciden signed/unsigned
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(126,21): warning C4018: '<': no coinciden signed/unsigned
+  motor de videojocs.cpp
+  Generando código...
+  motor de videojocs.vcxproj -> E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\Debug\motor de videojocs.exe

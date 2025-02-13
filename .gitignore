@@ -1,5 +1,8 @@
 .vs/
 *.docx
 *.pdf
-Maquines Virtuals*/
 DS3D/
+*Virtuals/
+*.bat
+*.zip
+Clase/
