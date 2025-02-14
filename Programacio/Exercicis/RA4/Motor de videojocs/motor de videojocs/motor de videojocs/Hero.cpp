@@ -5,7 +5,20 @@ using namespace sf;
 
 Sprite Hero::getSprite() 
 { 
-	return m_sprite; }
+	return m_sprite; 
+}
+
+void Hero::swaptexture(bool gameover)
+{
+	if (gameover){
+		m_sprite.setTexture(m_texturemort);
+	}
+
+	else 
+	{
+		m_sprite.setTexture(m_texture);
+	}
+}
 
 Hero::Hero()
 {
@@ -15,7 +28,7 @@ Hero::~Hero()
 {
 }
 
-void Hero::init(string textureName, Vector2f position, float mass) 
+void Hero::init(string textureName, Vector2f position, float mass, string texturemort)
 {
 	m_position = position;
 	m_mass = mass;
@@ -23,7 +36,8 @@ void Hero::init(string textureName, Vector2f position, float mass)
 	
 	// Load a Texture
 	m_texture.loadFromFile(textureName.c_str());	
-	
+	m_texturemort.loadFromFile(texturemort.c_str());
+
 	// Create Sprite and Attach a Texture
 	m_sprite.setTexture(m_texture);
 	m_sprite.setPosition(200, 880);

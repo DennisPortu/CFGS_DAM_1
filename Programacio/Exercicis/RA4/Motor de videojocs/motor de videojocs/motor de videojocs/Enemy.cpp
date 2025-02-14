@@ -8,6 +8,18 @@ Sprite Enemy::getSprite()
 	return m_sprite;
 }
 
+void Enemy::swaptexture(bool gameover)
+{
+	if (gameover) {
+		m_sprite.setTexture(m_texturemort);
+	}
+
+	else
+	{
+		m_sprite.setTexture(m_texture);
+	}
+}
+
 Enemy::Enemy  ()
 {
 }
@@ -16,7 +28,7 @@ Enemy::~Enemy()
 {
 }
 
-void Enemy::init(std::string textureName, Vector2f position, float _speed)
+void Enemy::init(std::string textureName, Vector2f position, float _speed, string texturemort)
 {
 	m_position = position;
 
@@ -24,6 +36,7 @@ void Enemy::init(std::string textureName, Vector2f position, float _speed)
 
 	// Load a Texture
 	m_texture.loadFromFile(textureName.c_str());
+	m_texturemort.loadFromFile(texturemort.c_str());
 
 	// Create Sprite and Attach a Texture
 	m_sprite.setTexture(m_texture);

@@ -3,18 +3,21 @@
 #include "SFML\Graphics.hpp"
 
 using namespace sf;
+using namespace std;
 
 class Hero {
 public:
 	Hero();
 	~Hero();
-	void init(std::string textureName, sf::Vector2f position, float mass);
+	void init(string textureName, Vector2f position, float mass, string texturemort);
 	void update(float dt);
 	void jump(float velocity);
 	Sprite getSprite();
+	void swaptexture(bool gameover);
 private:
 	Texture m_texture;
 	Sprite m_sprite;
+	Texture m_texturemort;
 	Vector2f m_position;
 	int m_force;
 	int jumpCount = 0;

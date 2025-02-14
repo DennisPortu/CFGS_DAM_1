@@ -33,6 +33,9 @@ private:
 	//cel
 	Texture skyTexture;
 	Sprite skySprite;
+	//cel
+	Texture skyTexturemort;
+	Sprite skySpritemort;
 
 	//variable del personatge
 	Hero Dennis;

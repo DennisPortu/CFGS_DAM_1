@@ -1,6 +1,11 @@
 #include "engine.h"
-#include "Enemy.h"
 #include "Rocket.h"
+#include <sstream>
+
+using namespace sf;
+
+int score = 0;
+std::stringstream ss;
 
 // This is the constructor, called whenever a 'Game' object is init.
 Engine::Engine() {
@@ -38,27 +43,37 @@ void Engine::init() {
 	//carregam les imatges del fons
 	skyTexture.loadFromFile("Assets/graphics/sky.png");
 	skySprite.setTexture(skyTexture);
+	skyTexturemort.loadFromFile("Assets/graphics/skymort.png");
+	skySpritemort.setTexture(skyTexturemort);
+
 
 	
 	// Load font
-	headingFont.loadFromFile("Assets/fonts/SnackerComic.ttf");
-	scoreFont.loadFromFile("Assets/fonts/arial.ttf");
+	headingFont.loadFromFile("Assets/fonts/BeaufortforLOL-Heavy.ttf");
+	scoreFont.loadFromFile("Assets/fonts/BeaufortforLOL-Heavy.ttf");
 	
 	// Set Heading Text
 	headingText.setFont(headingFont);
-	headingText.setString("Tiny Bazooka");
+	headingText.setString("Fizz vs Kayn");
 	headingText.setCharacterSize(84);
-	headingText.setFillColor(Color::Red);
+	headingText.setFillColor(Color::Yellow);
 	FloatRect headingbounds = headingText.getLocalBounds();
 	headingText.setOrigin(headingbounds.width / 2, headingbounds.height / 2);
 	headingText.setPosition(Vector2f(viewSize.x * 0.5f, viewSize.y * 0.10f));
+	
 	// Set Score Text
+	scoreText.setFont(scoreFont);
+	ss << "Score: " << score;
+	scoreText.setString(ss.str());
+	scoreText.setCharacterSize(85);
+	scoreText.setFillColor(Color::Yellow);
+	scoreText.setPosition(20, 20);
 
 	// Tutorial Text
 	tutorialText.setFont(scoreFont);
 	tutorialText.setString("Press Down Arrow to Fire and Start Game, Up Arrow to Jump");
 	tutorialText.setCharacterSize(35);
-	tutorialText.setFillColor(Color::Red);
+	tutorialText.setFillColor(Color::Yellow);
 	FloatRect tutorialbounds = tutorialText.getLocalBounds();
 	tutorialText.setOrigin(tutorialbounds.width / 2, tutorialbounds.height / 2);
 	tutorialText.setPosition(Vector2f(viewSize.x * 0.5f, viewSize.y * 0.20f));
@@ -68,7 +83,7 @@ void Engine::init() {
 	bgMusic.play();
 	
 	//inicialitzem el jugador
-	Dennis.init("Assets/graphics/heroi.png", Vector2f(200, 880), 130);
+	Dennis.init("Assets/graphics/heroi.png", Vector2f(200, 880), 130, "Assets/graphics/heroimort.png");
 	//inicialitzem els nombre aleatoris.
 	srand((int)time(0));
 }
@@ -95,9 +110,14 @@ void Engine::updateInput() {
 					shoot();
 				}
 			}
-		//condicions per tancar el programa
+			
+			//condicions per tancar el programa
 			if (event.key.code == Keyboard::Escape || event.type == Event::Closed)
 			window.close();
+
+			
+		
+
 	}
 }
 
@@ -119,6 +139,25 @@ void Engine::update(float dt) {
 		enemy->update(dt);
 	}
 	
+	//Morir
+	for (int i = 0; i < enemies.size(); i++)
+	{
+		Enemy* enemy = enemies[i];
+		enemy->update(dt);
+
+		if (checkCollision(enemy->getSprite(), Dennis.getSprite()))
+		{
+			gameover = true;
+			enemies.erase(enemies.begin() + i);
+		}
+
+		else if (enemy->getSprite().getPosition().x < -150)
+		{
+			delete enemy;
+			enemies.erase(enemies.begin() + i);
+		}
+	}
+
 	// Update rockets
 	for (int i = 0; i < rockets.size(); i++) {
 		Rocket* rocket = rockets[i];
@@ -130,21 +169,41 @@ void Engine::update(float dt) {
 				delete enemies[j];
 				enemies.erase(enemies.begin() + j);
 				score += 1;
+				ss.str("");
+				ss.clear();
+				ss << "Score: " << score;
+				scoreText.setString(ss.str());
 				break;
 			}
 		}
+
 	}
 	// Check collision between Rocket and Enemies
 }
 
 void Engine::draw() {
+
+	Dennis.swaptexture(gameover);
+
 	// netejem la pantalla
-	window.clear(Color::Red);
+	window.clear(Color::Yellow);
 	
 	//dibuixem elements
-	window.draw(skySprite);
+	if (gameover) {
+		window.draw(skySpritemort);
+
+		window.draw(headingText);
+		window.draw(tutorialText);
+	}
+	else {
+		window.draw(skySprite);
+
+		window.draw(scoreText);
+	}
+	
 	window.draw(Dennis.getSprite());
 	for (Enemy* enemy : enemies) {
+			enemy->swaptexture(gameover);
 		window.draw(enemy->getSprite());
 	}
 	for (Rocket* rocket : rockets) {
@@ -152,23 +211,9 @@ void Engine::draw() {
 	}
 
 	//mostrem text depenent si estem jugant o no
-	if (gameover) {
-		window.draw(headingText);
-		window.draw(tutorialText);
-	}
-	else {
-		window.draw(scoreText);
-	}
-	
+
 	//enviem a la pantalla.
 	window.display();
-}
-
-void Engine::reset() {
-	score = 0;
-	currentTime = 0.0f;
-	prevTime = 0.0;
-	scoreText.setString("Score: 0");
 }
 
 void Engine::spawnEnemy() {
@@ -186,7 +231,7 @@ void Engine::spawnEnemy() {
 		default: printf("incorrect y value \n"); break;
 	}
 	Enemy* enemy = new Enemy();
-	enemy->init("Assets/graphics/enemy.png", enemyPos, speed); 
+	enemy->init("Assets/graphics/enemy.png", enemyPos, speed, "Assets/graphics/enemymort.png");
 	enemies.push_back(enemy);
 }
 
@@ -206,3 +251,20 @@ bool Engine::checkCollision(Sprite sprite1, Sprite sprite2) {
 		return false;
 	}
 }
+
+void Engine::reset() {
+		score = 0;
+		currentTime = 0.0f;
+		prevTime = 0.0;
+		scoreText.setString("Score: 0");
+
+	for (Enemy* enemy : enemies) {
+		delete(enemy);
+	}
+	for (Rocket* rocket : rockets) {
+		delete(rocket);
+	}
+	enemies.clear();
+	rockets.clear();
+}
+
