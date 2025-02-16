@@ -10,7 +10,7 @@ class Enemy
 public:
 	Enemy();
 	~Enemy();
-	void init(string textureName, Vector2f position, float _speed, string texturemort);
+	void init(string textureName, Vector2f position, float speed, string texturemort);
 	void update(float dt);
 	Sprite getSprite();
 	void swaptexture(bool gameover);

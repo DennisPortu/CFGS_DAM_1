@@ -7,6 +7,7 @@
 
 #include"Hero.h"
 #include"Enemy.h"
+#include"Enemy2.h"
 #include"Rocket.h"
 
 using namespace std;
@@ -23,6 +24,7 @@ private:
 	
 	// Audio
 	Music bgMusic;
+	Music m;
 	
 	//creem la variables per crear la finestra de joc
 	Vector2f viewSize;
@@ -40,7 +42,16 @@ private:
 	//variable del personatge
 	Hero Dennis;
 
+	//Enemic
 	vector<Enemy*> enemies;
+	Vector2f enemyPos;
+	float speed;
+
+	//Enemic2
+	vector<Enemy2*> enemies2;
+	Vector2f enemy2Pos;
+	float speed2;
+
 	vector<Rocket*> rockets;
 
 	//temps entre frame
@@ -56,6 +67,7 @@ private:
 	void updateInput();
 	void update(float dt);
 	void spawnEnemy();
+	void spawnEnemy2();
 	void shoot();
 	bool checkCollision(Sprite sprite1, Sprite sprite2);
 	void draw();

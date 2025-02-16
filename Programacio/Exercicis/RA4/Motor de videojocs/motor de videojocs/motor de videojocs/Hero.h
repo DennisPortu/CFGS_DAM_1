@@ -4,7 +4,7 @@
 
 using namespace sf;
 using namespace std;
-
+	
 class Hero {
 public:
 	Hero();
@@ -14,6 +14,7 @@ public:
 	void jump(float velocity);
 	Sprite getSprite();
 	void swaptexture(bool gameover);
+	void mover(float speed);
 private:
 	Texture m_texture;
 	Sprite m_sprite;

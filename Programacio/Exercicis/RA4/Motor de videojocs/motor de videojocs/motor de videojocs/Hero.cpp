@@ -42,7 +42,7 @@ void Hero::init(string textureName, Vector2f position, float mass, string textur
 	m_sprite.setTexture(m_texture);
 	m_sprite.setPosition(200, 880);
 	m_sprite.setOrigin(m_texture.getSize().x / 2, m_texture.getSize().y / 2);
-	m_sprite.setScale(0.8, 0.8);
+	m_sprite.setScale(0.7, 0.7);
 }
 
 void Hero::update(float dt) 
@@ -67,4 +67,17 @@ void Hero::jump(float velocity)
 		m_velocity = velocity;
 		m_grounded = false;
 	}
+}
+
+void Hero::mover(float speed) 
+{
+	if (Keyboard::isKeyPressed(Keyboard::Right))
+	{
+		m_position.x += speed;
+	}
+	else if (Keyboard::isKeyPressed(Keyboard::Left))
+	{
+		m_position.x -= speed;
+	}
+	m_sprite.setPosition(m_position);
 }

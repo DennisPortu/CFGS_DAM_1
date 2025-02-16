@@ -28,11 +28,11 @@ Enemy::~Enemy()
 {
 }
 
-void Enemy::init(std::string textureName, Vector2f position, float _speed, string texturemort)
+void Enemy::init(string textureName, Vector2f position, float speed, string texturemort)
 {
 	m_position = position;
 
-	m_speed = _speed;
+	m_speed = speed;
 
 	// Load a Texture
 	m_texture.loadFromFile(textureName.c_str());

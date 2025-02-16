@@ -1,8 +1,10 @@
+#include <iostream>
 #include "engine.h"
 #include "Rocket.h"
 #include <sstream>
 
 using namespace sf;
+using namespace std;
 
 int score = 0;
 std::stringstream ss;
@@ -10,14 +12,14 @@ std::stringstream ss;
 // This is the constructor, called whenever a 'Game' object is init.
 Engine::Engine() {
 	// Get the screen resolution and create an SFML window and View
-	//mides de la finestra
+	// Mides de la finestra
 	viewSize.x = 1920;
 	viewSize.y = 1080;
 	
 	//construïm la finestra de joc.
 	window.create(VideoMode(viewSize.x, viewSize.y),
 		"Joc Heroi Dennis",
-		Style::Default);
+		Style::Fullscreen);
 }
 
 // This is the destructor, called whenever a 'Game' object is destroyed.
@@ -71,7 +73,7 @@ void Engine::init() {
 
 	// Tutorial Text
 	tutorialText.setFont(scoreFont);
-	tutorialText.setString("Press Down Arrow to Fire and Start Game, Up Arrow to Jump");
+	tutorialText.setString("Pulsa la flecha pa abajo pa empezar");
 	tutorialText.setCharacterSize(35);
 	tutorialText.setFillColor(Color::Yellow);
 	FloatRect tutorialbounds = tutorialText.getLocalBounds();
@@ -79,11 +81,16 @@ void Engine::init() {
 	tutorialText.setPosition(Vector2f(viewSize.x * 0.5f, viewSize.y * 0.20f));
 	
 	// Audio
-	bgMusic.openFromFile("Assets/audio/bgMusic.ogg");
+	bgMusic.openFromFile("Assets/audio/bgMusic.wav");
+	bgMusic.setVolume(5);
 	bgMusic.play();
+
+	m.openFromFile("Assets/audio/m.wav");
+	m.setVolume(5);
 	
 	//inicialitzem el jugador
 	Dennis.init("Assets/graphics/heroi.png", Vector2f(200, 880), 130, "Assets/graphics/heroimort.png");
+	
 	//inicialitzem els nombre aleatoris.
 	srand((int)time(0));
 }
@@ -93,10 +100,11 @@ void Engine::updateInput() {
 	// while there are pending events...
 		while (window.pollEvent(event)) {
 			if (event.type == Event::KeyPressed) { //revisem les tecles premudes
-				if (event.key.code == Keyboard::Up) {//personatge sala
+				if (event.key.code == Keyboard::Up) {//personatge salta
 					Dennis.jump(1500.f);
 				
 				}
+				
 				if (event.key.code == Keyboard::Down) {
 					if (gameover) {//si no joguem llavors engeguem el joc.
 						gameover = false;
@@ -114,12 +122,16 @@ void Engine::updateInput() {
 			//condicions per tancar el programa
 			if (event.key.code == Keyboard::Escape || event.type == Event::Closed)
 			window.close();
+		}
 
-			
-		
-
-	}
+		if (Keyboard::isKeyPressed(Keyboard::Right)) {
+			Dennis.mover(0.3);
+		}
+		if (Keyboard::isKeyPressed(Keyboard::Left)) {
+			Dennis.mover(0.3);
+		}
 }
+
 
 void Engine::update(float dt) {
 	//actualitzem la posició del personatge
@@ -131,12 +143,17 @@ void Engine::update(float dt) {
 	// Spawn Enemies
 	if (currentTime >= prevTime + 1.125f) {
 		spawnEnemy();
+		spawnEnemy2();
 		prevTime = currentTime;
 	}
 
 	// Update Enemies
 	for (Enemy* enemy : enemies) {
 		enemy->update(dt);
+	}
+
+	for (Enemy2* enemy2 : enemies2) {
+		enemy2->update(dt);
 	}
 	
 	//Morir
@@ -155,6 +172,24 @@ void Engine::update(float dt) {
 		{
 			delete enemy;
 			enemies.erase(enemies.begin() + i);
+		}
+	}
+
+	for (int i = 0; i < enemies2.size(); i++)
+	{
+		Enemy2* enemy2 = enemies2[i];
+		enemy2->update(dt);
+
+		if (checkCollision(enemy2->getSprite(), Dennis.getSprite()))
+		{
+			gameover = true;
+			enemies2.erase(enemies2.begin() + i);
+		}
+
+		else if (enemy2->getSprite().getPosition().y > 2300)
+		{
+			delete enemy2;
+			enemies2.erase(enemies2.begin() + i);
 		}
 	}
 
@@ -188,7 +223,7 @@ void Engine::draw() {
 	// netejem la pantalla
 	window.clear(Color::Yellow);
 	
-	//dibuixem elements
+	// dibuixem elements
 	if (gameover) {
 		window.draw(skySpritemort);
 
@@ -202,10 +237,17 @@ void Engine::draw() {
 	}
 	
 	window.draw(Dennis.getSprite());
+
 	for (Enemy* enemy : enemies) {
-			enemy->swaptexture(gameover);
+		enemy->swaptexture(gameover);
 		window.draw(enemy->getSprite());
 	}
+
+	for (Enemy2* enemy2 : enemies2) {
+		enemy2->swaptexture(gameover);
+		window.draw(enemy2->getSprite());
+	}
+
 	for (Rocket* rocket : rockets) {
 		window.draw(rocket->getSprite());
 	}
@@ -217,33 +259,52 @@ void Engine::draw() {
 }
 
 void Engine::spawnEnemy() {
-	int randLoc =	 rand() % 3;
-	Vector2f enemyPos;
-	float speed;
+	int randLoc = rand() % 3;
+
 	switch (randLoc) 
 	{
 		case 0: enemyPos = Vector2f(viewSize.x, viewSize.y * 0.8f);
-			speed = -300; break;
+			speed = -350; break;
 		case 1: enemyPos = Vector2f(viewSize.x, viewSize.y * 0.51f);
-			speed = -450; break;
+			speed = -350; break;
 		case 2: enemyPos = Vector2f(viewSize.x, viewSize.y * 0.2f);
-			speed = -550; break;
-		default: printf("incorrect y value \n"); break;
+			speed = -350; break;
+		default: printf("incorrect y value 1\n"); break;
 	}
 	Enemy* enemy = new Enemy();
 	enemy->init("Assets/graphics/enemy.png", enemyPos, speed, "Assets/graphics/enemymort.png");
 	enemies.push_back(enemy);
 }
 
+void Engine::spawnEnemy2() {
+	int randLoc = rand() % 2;
+
+	switch (randLoc)
+	{
+	case 0: enemy2Pos = Vector2f(200, -50);
+			speed2 = 150; break;
+	case 1: enemy2Pos = Vector2f(900, -50);
+			speed2 = 150; break;
+	case 2: enemy2Pos = Vector2f(900, -50);
+		speed2 = 150; break;
+	default: printf("incorrect y value 2\n"); break;
+	}
+	Enemy2* enemy2 = new Enemy2();
+	enemy2->init("Assets/graphics/enemy2.png", enemy2Pos, speed2, "Assets/graphics/enemy2mort.png");
+	enemies2.push_back(enemy2);
+}
+
 void Engine::shoot() {
 	Rocket* rocket = new Rocket();
 	rocket->init("Assets/graphics/rocket.png", Dennis.getSprite().getPosition(),1000);
 	rockets.push_back(rocket);
+	m.play();
 }
 
 bool Engine::checkCollision(Sprite sprite1, Sprite sprite2) {
 	FloatRect shape1 = sprite1.getGlobalBounds();
 	FloatRect shape2 = sprite2.getGlobalBounds();
+
 	if (shape1.intersects(shape2)) {
 		return true;
 	}
@@ -261,10 +322,16 @@ void Engine::reset() {
 	for (Enemy* enemy : enemies) {
 		delete(enemy);
 	}
+
+	for (Enemy2* enemy2 : enemies2) {
+		delete(enemy2);
+	}
+
 	for (Rocket* rocket : rockets) {
 		delete(rocket);
 	}
 	enemies.clear();
+	enemies2.clear();
 	rockets.clear();
 }
 

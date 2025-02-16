@@ -1,213 +1,137 @@
-﻿  draw.cpp
+﻿  Enemy.cpp
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(43,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(43,20): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(46,25): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(46,25): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(46,25): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(46,25): warning C4244:             T=unsigned int
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(46,25): warning C4244:         ]
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(45,43): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(45,43): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(45,43): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(45,43): warning C4244:             T=unsigned int
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Enemy.cpp(45,43): warning C4244:         ]
   engine.cpp
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(34,7): error C3646: 'Robert': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(34,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(52,10): error C3646: 'state': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(52,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,7): error C3646: 'rialText': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,15): error C2143: error de sintaxis: falta ';' delante de '.'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(60,34): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,15): error C3646: 'setString': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,24): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(61,85): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,15): error C3646: 'setCharacterSize': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,31): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(62,35): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,15): error C3646: 'setFillColor': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,27): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(63,39): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,15): error C3646: 'setOrigin': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,24): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(65,77): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,14): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,15): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,15): error C3646: 'setPosition': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,26): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(66,75): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,10): error C3646: 'openFromFile': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,22): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(68,50): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,9): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,10): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,10): error C3646: 'play': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,14): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(69,16): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,2): error C3927: "->": no se admite el tipo de valor devuelto final después de un declarador que no es de función
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,8): error C3484: error de sintaxis: se esperaba '->' antes del tipo de valor devuelto
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,9): error C3613: falta el tipo de devolución después de '->' (se presupone 'int')
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,9): error C3646: 'init': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,13): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(71,95): error C2238: símbolos (token) inesperados delante de ';'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,8): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,13): error C3646: 'time': especificador de invalidación desconocido
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,17): error C2059: error de sintaxis: '('
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2): warning C4183: 'srand': falta el tipo de valor devuelto; se supone que se trata de una función miembro que devuelve 'int'
-  (compilando archivo de origen "engine.cpp")
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(3,1): error C2059: error de sintaxis: 'using namespace'
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(3,20): error C2143: error de sintaxis: falta ')' delante de ';'
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         with
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         [
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:             T=float
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,46): warning C4244:         ]
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         with
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         [
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:             T=float
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(13,34): warning C4244:         ]
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(67,3): error C2065: 'Robert': identificador no declarado
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(69,3): error C2660: 'Engine::srand': la función no acepta 1 argumentos
-      E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.h(73,2):
-      vea la declaración de 'Engine::srand'
-      E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(69,3):
-      al hacer coincidir la lista de argumentos '(int)'
-  
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(78,5): error C2065: 'Robert': identificador no declarado
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(96,2): error C2065: 'Robert': identificador no declarado
-E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(111,14): error C2065: 'Robert': identificador no declarado
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,46): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,46): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,46): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,46): warning C4244:             T=float
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,46): warning C4244:         ]
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,34): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,34): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,34): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,34): warning C4244:             T=float
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(18,34): warning C4244:         ]
+  Hero.cpp
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,70): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,70): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,70): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,70): warning C4244:             T=unsigned int
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,70): warning C4244:         ]
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,43): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,43): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,43): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,43): warning C4244:             T=unsigned int
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(44,43): warning C4244:         ]
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(45,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Hero.cpp(45,20): warning C4305: 'argumento': truncamiento de 'double' a 'float'
   motor de videojocs.cpp
-  update.cpp
+  Rocket.cpp
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(28,25): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(28,20): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(31,25): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(31,25): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(31,25): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(31,25): warning C4244:             T=unsigned int
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(31,25): warning C4244:         ]
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(30,43): warning C4244: 'argumento': conversión de 'T' a 'float'; posible pérdida de datos
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(30,43): warning C4244:         with
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(30,43): warning C4244:         [
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(30,43): warning C4244:             T=unsigned int
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\Rocket.cpp(30,43): warning C4244:         ]
   Generando código...
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Vector2<float>,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@Enemy@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Vector2@M@sf@@M0@Z)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setScale(float,float)" (__imp_?setScale@Transformable@sf@@QEAAXMM@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Vector2<float>,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@Enemy@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Vector2@M@sf@@M0@Z)
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setScale(float,float)" (__imp_?setScale@Transformable@sf@@QEAAXMM@Z) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setScale(float,float)" (__imp_?setScale@Transformable@sf@@QEAAXMM@Z) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(float,float)" (__imp_?setOrigin@Transformable@sf@@QEAAXMM@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Vector2<float>,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@Enemy@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Vector2@M@sf@@M0@Z)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(float,float)" (__imp_?setOrigin@Transformable@sf@@QEAAXMM@Z) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(float,float)" (__imp_?setOrigin@Transformable@sf@@QEAAXMM@Z) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(float,float)" (__imp_?setOrigin@Transformable@sf@@QEAAXMM@Z) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::update(float)" (?update@Enemy@@QEAAXM@Z)
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::move(float,float)" (__imp_?move@Transformable@sf@@QEAAXMM@Z) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Enemy::Enemy(void)" (??0Enemy@@QEAA@XZ)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "int `public: __cdecl Enemy::Enemy(void)'::`1'::dtor$0" (?dtor$0@?0???0Enemy@@QEAA@XZ@4HA)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Vector2<float>,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@Enemy@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Vector2@M@sf@@M0@Z)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Vector2<float>,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@Enemy@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Vector2@M@sf@@M0@Z)
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: class sf::Vector2<unsigned int> __cdecl sf::Texture::getSize(void)const " (__imp_?getSize@Texture@sf@@QEBA?AV?$Vector2@I@2@XZ) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Enemy::Enemy(void)" (??0Enemy@@QEAA@XZ)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z) sin resolver al que se hace referencia en la función "public: void __cdecl Enemy::init(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class sf::Vector2<float>,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (?init@Enemy@@QEAAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Vector2@M@sf@@M0@Z)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) sin resolver al que se hace referencia en la función "int `public: __cdecl Enemy::Enemy(void)'::`1'::dtor$1" (?dtor$1@?0???0Enemy@@QEAA@XZ@4HA)
+engine.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) sin resolver
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) sin resolver
+Enemy.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(class sf::Sprite const &)" (__imp_??0Sprite@sf@@QEAA@AEBV01@@Z) sin resolver al que se hace referencia en la función "public: class sf::Sprite __cdecl Enemy::getSprite(void)" (?getSprite@Enemy@@QEAA?AVSprite@sf@@XZ)
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(class sf::Sprite const &)" (__imp_??0Sprite@sf@@QEAA@AEBV01@@Z) sin resolver
+Rocket.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(class sf::Sprite const &)" (__imp_??0Sprite@sf@@QEAA@AEBV01@@Z) sin resolver
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: float __cdecl sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QEBAMXZ) sin resolver al que se hace referencia en la función "public: int __cdecl Engine::run(void)" (?run@Engine@@QEAAHXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: int __cdecl Engine::run(void)" (?run@Engine@@QEAAHXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: class sf::Time __cdecl sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QEAA?AVTime@2@XZ) sin resolver al que se hace referencia en la función "public: int __cdecl Engine::run(void)" (?run@Engine@@QEAAHXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBVlocale@3@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(void)" (__imp_??0VideoMode@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::WindowBase::isOpen(void)const " (__imp_?isOpen@WindowBase@sf@@QEBA_NXZ) sin resolver al que se hace referencia en la función "public: int __cdecl Engine::run(void)" (?run@Engine@@QEAAHXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::WindowBase::pollEvent(class sf::Event &)" (__imp_?pollEvent@WindowBase@sf@@QEAA_NAEAVEvent@2@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::updateInput(void)" (?updateInput@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::draw(void)" (?draw@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+Hero.obj : error LNK2001: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QEAAXMM@Z) sin resolver
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: class sf::Vector2<float> const & __cdecl sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QEBAAEBV?$Vector2@M@2@XZ) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::shoot(void)" (?shoot@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Font::Font(void)" (__imp_??0Font@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Font::~Font(void)" (__imp_??1Font@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "int `public: __cdecl Engine::Engine(void)'::`1'::dtor$0" (?dtor$0@?0???0Engine@@QEAA@XZ@4HA)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::draw(void)" (?draw@Engine@@AEAAXXZ)
+    Sugerencia sobre los símbolos definidos que podrían coincidir:
+      "__declspec(dllimport) public: void __cdecl std::basic_ios<char,struct std::char_traits<char> >::clear(int,bool)" (__imp_?clear@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::draw(void)" (?draw@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(void)" (__imp_??0RenderWindow@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) sin resolver al que se hace referencia en la función "int `public: __cdecl Engine::Engine(void)'::`1'::dtor$6" (?dtor$6@?0???0Engine@@QEAA@XZ@4HA)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Sprite::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Sprite@sf@@QEBA?AV?$Rect@M@2@XZ) sin resolver al que se hace referencia en la función "private: bool __cdecl Engine::checkCollision(class sf::Sprite,class sf::Sprite)" (?checkCollision@Engine@@AEAA_NVSprite@sf@@0@Z)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Text::Text(void)" (__imp_??0Text@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QEAAXAEBVString@2@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QEAAXAEBVFont@2@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Text::setCharacterSize(unsigned int)" (__imp_?setCharacterSize@Text@sf@@QEAAXI@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: void __cdecl sf::Text::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Text@sf@@QEAAXAEBVColor@2@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Text::getLocalBounds(void)const " (__imp_?getLocalBounds@Text@sf@@QEBA?AV?$Rect@M@2@XZ) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::Text::~Text(void)" (__imp_??1Text@sf@@UEAA@XZ) sin resolver al que se hace referencia en la función "int `public: __cdecl Engine::Engine(void)'::`1'::dtor$2" (?dtor$2@?0???0Engine@@QEAA@XZ@4HA)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: __cdecl sf::Music::Music(void)" (__imp_??0Music@sf@@QEAA@XZ) sin resolver al que se hace referencia en la función "public: __cdecl Engine::Engine(void)" (??0Engine@@QEAA@XZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: virtual __cdecl sf::Music::~Music(void)" (__imp_??1Music@sf@@UEAA@XZ) sin resolver al que se hace referencia en la función "int `public: __cdecl Engine::Engine(void)'::`1'::dtor$5" (?dtor$5@?0???0Engine@@QEAA@XZ@4HA)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: bool __cdecl sf::Music::openFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?openFromFile@Music@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::init(void)" (?init@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::draw(void)" (?draw@Engine@@AEAAXXZ)
+engine.obj : error LNK2019: símbolo externo "__declspec(dllimport) public: static class sf::Color const sf::Color::Yellow" (__imp_?Yellow@Color@sf@@2V12@B) sin resolver al que se hace referencia en la función "private: void __cdecl Engine::draw(void)" (?draw@Engine@@AEAAXXZ)
+C:\SFML\lib\sfml-graphics-d.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\SFML\lib\sfml-window-d.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\SFML\lib\sfml-system-d.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\SFML\lib\sfml-network-d.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+C:\SFML\lib\sfml-audio-d.lib : warning LNK4272: el tipo de máquina de biblioteca 'x86' está en conflicto con el tipo de máquina de destino 'x64'
+E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\x64\Debug\motor de videojocs.exe : fatal error LNK1120: 45 externos sin resolver
