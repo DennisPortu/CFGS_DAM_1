@@ -22,7 +22,6 @@ import javax.persistence.Table;
 @Table (name = "jugadors")
 
 public class jugador {
-    
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
     protected int id;
@@ -51,8 +50,7 @@ public class jugador {
     @Column (name = "estrelles", nullable = true)
     protected int estrelles;
 
-    public jugador(int id, String nom, int nivell, int copes, int oro, int gemes, int estrelles) {
-        this.id = id;
+    public jugador(String nom, int nivell, int copes, int oro, int gemes, int estrelles) {
         this.nom = nom;
         this.nivell = nivell;
         this.copes = copes;
@@ -63,6 +61,10 @@ public class jugador {
 
     public jugador() {
         
+    }
+
+    public jugador(String text, int parseInt, int parseInt0, int parseInt1, int parseInt2) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public int getId() {

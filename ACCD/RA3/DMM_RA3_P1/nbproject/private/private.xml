@@ -4,8 +4,10 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/hibernate.cfg.xml</file>
+            <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/model/partida.java</file>
             <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/dmm_ra3_p1/DMM_RA3_P1.java</file>
             <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/util/NewHibernateUtil.java</file>
+            <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/model/clan.java</file>
             <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/view/principal.java</file>
             <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/model/jugador.java</file>
             <file>file:/E:/AluCiclesGS1/Dennis%20Molina/ACCD/RA3/DMM_RA3_P1/src/dao/DaoGeneric.java</file>

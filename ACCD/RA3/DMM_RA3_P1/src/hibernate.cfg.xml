@@ -41,22 +41,24 @@ Contributor(s):
 -->
 <hibernate-configuration>
   <session-factory>
-    <property name="connection.url">jdbc:postgresql://localhost:5432/clash</property>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/clash</property> // Aquesta linia es per obrir la nostra bdd
     <!-- BD Mane -->
-    <property name="connection.driver_class">org.postgresql.Driver</property>
+    <property name="connection.driver_class">org.postgresql.Driver</property> // Aquesta linia es per utilitzar el driver postrgresql
     <!-- DB Driver -->
-    <property name="connection.username">postgre</property>
+    <property name="connection.username">postgres</property> // Aqui posem el username de la connexio
     <!-- DB User -->
-    <property name="connection.password">accedir</property>
+    <property name="connection.password">accedir</property> // Aqui posem la pasword
     <!-- DB Password -->
-    <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property>
+    <property name="dialect">org.hibernate.dialect.PostgreSQLDialect</property> // Aqui posem el dialect de la bdd
     <!-- DB Dialect -->
     <!-- create / create-drop / update -->
-    <property name="show_sql">true</property>
+    <property name="show_sql">true</property> 
     <!-- Show SQL in console -->
     <property name="format_sql">true</property>
     <!-- Show SQL formatted -->
     <property name="hibernate.hbm2ddl.auto">update</property>
-    <mapping class="model.jugador"/>
+    <mapping class="model.jugador"/> // Aqui posem les 3 taules que tenim creades en classes
+    <mapping class="model.partida"/>
+    <mapping class="model.clan"/>
   </session-factory>
 </hibernate-configuration>

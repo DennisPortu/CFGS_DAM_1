@@ -211,7 +211,25 @@ void Engine::update(float dt) {
 				break;
 			}
 		}
+	}
 
+	for (int i = 0; i < rockets.size(); i++) {
+		Rocket* rocket = rockets[i];
+		rocket->update(dt);
+		for (int j = 0; j < enemies2.size(); j++) {
+			if (checkCollision(rocket->getSprite(), enemies2[j]->getSprite())) {
+				delete rockets[i];
+				rockets.erase(rockets.begin() + i);
+				delete enemies2[j];
+				enemies2.erase(enemies2.begin() + j);
+				score += 1;
+				ss.str("");
+				ss.clear();
+				ss << "Score: " << score;
+				scoreText.setString(ss.str());
+				break;
+			}
+		}
 	}
 	// Check collision between Rocket and Enemies
 }
@@ -277,15 +295,15 @@ void Engine::spawnEnemy() {
 }
 
 void Engine::spawnEnemy2() {
-	int randLoc = rand() % 2;
+	int randLoc = rand() % 3;
 
 	switch (randLoc)
 	{
-	case 0: enemy2Pos = Vector2f(200, -50);
+	case 0: enemy2Pos = Vector2f(200, -150);
 			speed2 = 150; break;
-	case 1: enemy2Pos = Vector2f(900, -50);
+	case 1: enemy2Pos = Vector2f(650, -150);
 			speed2 = 150; break;
-	case 2: enemy2Pos = Vector2f(900, -50);
+	case 2: enemy2Pos = Vector2f(950, -150);
 		speed2 = 150; break;
 	default: printf("incorrect y value 2\n"); break;
 	}
@@ -296,7 +314,7 @@ void Engine::spawnEnemy2() {
 
 void Engine::shoot() {
 	Rocket* rocket = new Rocket();
-	rocket->init("Assets/graphics/rocket.png", Dennis.getSprite().getPosition(),1000);
+	rocket->init("Assets/graphics/rocket.png", Dennis.getSprite().getPosition(),900);
 	rockets.push_back(rocket);
 	m.play();
 }

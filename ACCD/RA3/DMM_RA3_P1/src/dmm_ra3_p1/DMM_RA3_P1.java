@@ -15,8 +15,5 @@ import model.*;
 public class DMM_RA3_P1 {
 
     public static void main(String[] args) {
-        jugador jug1 = new jugador(1, "Dennis", 10, 2000, 200, 100, 300);
-    
-        jug1.mostrarJugador();
     }
 }

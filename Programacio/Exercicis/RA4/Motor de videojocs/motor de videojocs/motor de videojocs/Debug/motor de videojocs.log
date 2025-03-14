@@ -1,18 +1,20 @@
 ﻿  engine.cpp
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:         with
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:         [
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:             T=float
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:         ]
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:         with
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:         [
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:             T=float
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:         ]
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(128,17): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(131,17): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(160,20): warning C4018: '<': no coinciden signed/unsigned
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(178,20): warning C4018: '<': no coinciden signed/unsigned
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(197,20): warning C4018: '<': no coinciden signed/unsigned
-E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(200,21): warning C4018: '<': no coinciden signed/unsigned
-  motor de videojocs.vcxproj -> E:\CFGS_DAM_1\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\Debug\motor de videojocs.exe
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:             T=float
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,46): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:         with
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:         [
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:             T=float
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(20,34): warning C4244:         ]
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(128,17): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(131,17): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(160,20): warning C4018: '<': no coinciden signed/unsigned
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(178,20): warning C4018: '<': no coinciden signed/unsigned
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(197,20): warning C4018: '<': no coinciden signed/unsigned
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(200,21): warning C4018: '<': no coinciden signed/unsigned
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(216,20): warning C4018: '<': no coinciden signed/unsigned
+E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\motor de videojocs\engine.cpp(219,21): warning C4018: '<': no coinciden signed/unsigned
+  motor de videojocs.vcxproj -> E:\AluCiclesGS1\Dennis Molina\Programacio\Exercicis\RA4\Motor de videojocs\motor de videojocs\Debug\motor de videojocs.exe
