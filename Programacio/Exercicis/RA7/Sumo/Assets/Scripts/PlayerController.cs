@@ -26,9 +26,14 @@ public class PlayerController : MonoBehaviour
         float forwardInput = Input.GetAxis("Vertical");
         playerRB.AddForce(focalPoint.transform.forward * speed * forwardInput);
 
-        if (canShoot && Input.GetKey(KeyCode.Space))
+        if (canShoot && Input.GetKey(KeyCode.F))
         {
             Shoot();
+        }
+
+        if (Input.GetKey(KeyCode.Space))   
+        {
+            Jump();
         }
     }
 
@@ -36,6 +41,10 @@ public class PlayerController : MonoBehaviour
     {
         GameObject ProjectilTemp = Instantiate(projectilePrefab, transform.position, focalPoint.transform.rotation);
         Destroy(ProjectilTemp, 3);
+    }
+
+    private void Jump()
+    {
     }
 
     private void OnTriggerEnter(Collider other)
