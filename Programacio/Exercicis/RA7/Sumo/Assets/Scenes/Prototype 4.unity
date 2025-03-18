@@ -517,7 +517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4625923886776944, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 1.15
       objectReference: {fileID: 0}
     - target: {fileID: 4625923886776944, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -714,7 +714,7 @@ Transform:
   m_GameObject: {fileID: 1773941942}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 2.73, z: 0.21}
+  m_LocalPosition: {x: -0.8, y: 2.06, z: 0.21}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -736,6 +736,7 @@ MonoBehaviour:
   hasPowerup: 0
   canShoot: 1
   projectilePrefab: {fileID: 425440621657111750, guid: c603e8adb2291394aa8ba3ec031ec059, type: 3}
+  jumpForce: 7
 --- !u!1 &2125257130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6828065501620293833, guid: efa1b4dc5f4c2d74684805dba232cf88, type: 3}
@@ -788,7 +789,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6828065501620061673, guid: efa1b4dc5f4c2d74684805dba232cf88, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.39
+      value: -0.037
       objectReference: {fileID: 0}
     - target: {fileID: 6828065501620061673, guid: efa1b4dc5f4c2d74684805dba232cf88, type: 3}
       propertyPath: m_LocalPosition.z
@@ -860,7 +861,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6531256995240408309, guid: 0c1845c6254c0b448bf4d933b94cedb8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.56
+      value: 0.18
       objectReference: {fileID: 0}
     - target: {fileID: 6531256995240408309, guid: 0c1845c6254c0b448bf4d933b94cedb8, type: 3}
       propertyPath: m_LocalPosition.z

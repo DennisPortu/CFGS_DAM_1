@@ -26,5 +26,4 @@ private:
 	float m_velocity;
 	const float m_gravity = 24.0f;
 	bool m_grounded;
-
 };
