@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 48e22c6c3ad28e54f9b4db77ba5fbc5a
+  productGUID: b8aefe72be420394998c4e1b7257bea1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -754,10 +754,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: cd69203f-05ff-4f5f-bc92-31584d62d16f
+  cloudProjectId: bfcef84d-08af-498e-838b-351d4136ff4b
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: ITuAQueJuges 2025-03-27_13-52-27
+  projectName: ITuAQueJuges 2025-03-27_14-02-14
   organizationId: dennisportu30
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
