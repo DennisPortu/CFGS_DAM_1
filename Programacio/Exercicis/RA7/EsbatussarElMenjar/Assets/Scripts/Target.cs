@@ -25,7 +25,7 @@ public class Target : MonoBehaviour
 
     void Update()
     {
-        pierdePartida();
+        pierdeVida();
     }
 
     Vector3 RandomForce() 
@@ -47,6 +47,11 @@ public class Target : MonoBehaviour
     {
         Destroy(gameObject);
         gameManager.UpdateScore(5);
+
+        if (gameObject.CompareTag("bomba")) 
+        {
+            gameManager.gameover();
+        }
     }
 
     private void OnTriggerEnter(Collider other)
@@ -54,12 +59,12 @@ public class Target : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void pierdePartida()
+    private void pierdeVida()
     {
-        if (transform.position.y < -7)
+        if (transform.position.y <= -7)
         {
-            Debug.Log("Game Over");
             gameManager.UpdateVides(-1);
+            Destroy(gameObject);
         }  
     }
 }

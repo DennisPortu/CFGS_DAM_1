@@ -9,14 +9,17 @@ public class GameManager : MonoBehaviour
     public List<GameObject> targets;
     private float spawnRate = 1.0f;
     private int score;
-    private int vides;
+    private int vides = 3;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI videsText;
+    public TextMeshProUGUI gameoverText;
+    public bool isGameActive = true;
 
     void Start()
     {
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
+        isGameActive = true;
     }
 
     public void UpdateScore(int scoreToAdd)
@@ -29,11 +32,16 @@ public class GameManager : MonoBehaviour
     {
         vides += videsToAdd;
         videsText.text = "Vides: " + vides;
+
+        if (vides == 0)
+        {
+            gameover();
+        }
     }
 
     IEnumerator SpawnTarget()
     {
-        while (true)
+        while (isGameActive)
         {
             yield return new WaitForSeconds(spawnRate);
             int index = Random.Range(0, targets.Count);
@@ -44,5 +52,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void gameover() 
+    {
+        isGameActive = false;
+        gameoverText.gameObject.SetActive(true);
     }
 }
