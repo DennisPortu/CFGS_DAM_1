@@ -6,6 +6,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
 {
+    private DificultyButton DificultyButton;
     public List<GameObject> targets;
     private float spawnRate = 1.0f;
     private int score;
@@ -19,7 +20,6 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(SpawnTarget());
         UpdateScore(0);
-        isGameActive = true;
     }
 
     public void UpdateScore(int scoreToAdd)

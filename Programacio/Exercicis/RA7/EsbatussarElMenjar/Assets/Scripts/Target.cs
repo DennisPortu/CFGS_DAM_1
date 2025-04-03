@@ -61,7 +61,7 @@ public class Target : MonoBehaviour
 
     private void pierdeVida()
     {
-        if (transform.position.y <= -7)
+        if (transform.position.y <= -7 && !gameObject.CompareTag("bomba"))
         {
             gameManager.UpdateVides(-1);
             Destroy(gameObject);
