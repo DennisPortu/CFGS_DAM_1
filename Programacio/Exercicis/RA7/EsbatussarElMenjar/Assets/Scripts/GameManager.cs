@@ -2,23 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    private DificultyButton DificultyButton;
     public List<GameObject> targets;
-    private float spawnRate = 1.0f;
+    public float spawnRate = 1f;
     private int score;
     private int vides = 3;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI videsText;
     public TextMeshProUGUI gameoverText;
-    public bool isGameActive = true;
+    public bool isGameActive = false;
+    public GameObject BotoReiniciar;
 
     void Start()
     {
-        StartCoroutine(SpawnTarget());
         UpdateScore(0);
     }
 
@@ -39,9 +38,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    IEnumerator SpawnTarget()
+    public IEnumerator SpawnTarget()
     {
-        while (isGameActive)
+        while (isGameActive == true)
         {
             yield return new WaitForSeconds(spawnRate);
             int index = Random.Range(0, targets.Count);
@@ -51,12 +50,18 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        
+
     }
 
-    public void gameover() 
+    public void ReiniciarJuego()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void gameover()
     {
         isGameActive = false;
         gameoverText.gameObject.SetActive(true);
+        BotoReiniciar.SetActive(true);
     }
 }
